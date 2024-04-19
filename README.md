@@ -9,14 +9,15 @@ Lenguaje Principal: Desarrollado principalmente en C# para la plataforma .NET, a
 Base de Datos en Memoria: Utiliza una base de datos en memoria para almacenar datos transitorios durante la ejecución del sistema, lo que permite pruebas rápidas y eficientes sin depender de una base de datos persistente.
 Estructura del Proyecto:
 
-Commands: Contiene los comandos utilizados para realizar operaciones de escritura en el sistema.
 
-Queries: Contiene las consultas utilizadas para obtener datos del sistema.
+1) Commands: Contiene los comandos utilizados para realizar operaciones de escritura en el sistema.
 
-Handlers: Implementa los manejadores de comandos y consultas para ejecutar las operaciones correspondientes.
+2) Queries: Contiene las consultas utilizadas para obtener datos del sistema.
 
-Models: Define los modelos de datos utilizados en el sistema.
+3) Handlers: Implementa los manejadores de comandos y consultas para ejecutar las operaciones correspondientes.
 
-Services: Contiene servicios auxiliares utilizados en la lógica de negocio.
+4) Models: Define los modelos de datos utilizados en el sistema.
+
+5) Services: Contiene servicios auxiliares utilizados en la lógica de negocio.
 
 
