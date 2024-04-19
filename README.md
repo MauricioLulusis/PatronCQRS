@@ -10,8 +10,13 @@ Base de Datos en Memoria: Utiliza una base de datos en memoria para almacenar da
 Estructura del Proyecto:
 
 Commands: Contiene los comandos utilizados para realizar operaciones de escritura en el sistema.
+
 Queries: Contiene las consultas utilizadas para obtener datos del sistema.
+
 Handlers: Implementa los manejadores de comandos y consultas para ejecutar las operaciones correspondientes.
+
 Models: Define los modelos de datos utilizados en el sistema.
+
 Services: Contiene servicios auxiliares utilizados en la lógica de negocio.
+
 
