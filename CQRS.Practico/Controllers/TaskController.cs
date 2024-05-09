@@ -78,7 +78,7 @@ namespace CQRS.Practico.Controllers
         //recibe un id
         public async Task<ActionResult>Delete(int id)
         {
-            //utiliza mediator para encontrar el handler
+            //utiliza mediator para encontrar el handler, PROBANDO PARA TRABAJO DE INGENIERIA EN  SOFTWARE
             var result=await _mediator.Send(new DeleteTaskCommand(id));
             // y segun el resultad va a devolver un NotFound
             if (!result)
