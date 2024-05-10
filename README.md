@@ -1,4 +1,4 @@
-### 🚀 Proyecto CQRS en .NET C# con base de datos en memoria y patrón Builder para trabajo Práctico de ingeniería en software II 🚀
+### 🚀 Proyecto CQRS en .NET C# utilizando el patrón Mediator con base de datos en memoria y patrón Builder para trabajo Práctico de ingeniería en software II 🚀
 
 Este repositorio es una implementación de Command Query Responsibility Segregation (CQRS) utilizando .NET C# como lenguaje principal y una base de datos en memoria para almacenar datos transitorios. El patrón CQRS separa las operaciones de lectura y escritura, permitiendo una arquitectura más escalable y flexible para aplicaciones que gestionan un gran volumen de datos, como también así el patrón Builder dando la posibilidad de poder crear objetos complejos a medida.
 
